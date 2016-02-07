@@ -1,0 +1,1 @@
+1.upto(100) {|n| puts "#{'greene' if n % 3 == 0}#{'county' if n % 5 == 0}#{n if n % 3 != 0 && n % 5 != 0}"}
