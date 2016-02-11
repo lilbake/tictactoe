@@ -48,19 +48,69 @@ def player_two_marker(p1)
     end
 end
 
-def player_one_first_move()
+def p1_move1()
     puts "player one to go first pick a number between 1-9"
-    first_move = gets.chomp
-    puts "player one chooses #{first_move}"
-    first_move.to_i
+    p1_m1 = gets.chomp
+    puts "player one chooses #{p1_m1}"
+    p1_m1.to_i
 end
 
-def player_two_first_move()
+def p2_move1()
     puts "player two pick a number between 1-9"
-    second_move = gets.chomp
-    puts "player one chooses #{second_move}"
-    second_move.to_i
+    p2_m1 = gets.chomp
+    puts "player two chooses #{p2_m1}"
+    p2_m1.to_i
 end
+
+def p1_move2()
+    puts "player one your turn"
+    p1_m2 = gets.chomp
+    puts "player one chooses #{p1_m2}"
+    p1_m2.to_i
+end
+
+def p2_move2()
+    puts "player two your turn"
+    p2_m2 = gets.chomp
+    puts "player two chooses #{p2_m2}"
+    p2_m2.to_i
+end
+
+def p1_move3()
+    puts "player one your turn"
+    p1_m3 = gets.chomp
+    puts "player one chooses #{p1_m3}"
+    p1_m3.to_i 
+end
+
+def p2_move3()
+    puts "player two your turn"
+    p2_m3 = gets.chomp
+    puts "player two chooses #{p2_m3}"
+    p2_m3.to_i
+end
+
+def p1_move4()
+    puts "player one your turn"
+    p1_m4 = gets.chomp
+    puts "player one chooses #{p1_m4}"
+    p1_m4.to_i
+end
+
+def p2_move4()
+    puts "player two your turn"
+    p2_m4 = gets.chomp
+    puts "player two chooses #{p2_m4}"
+    p2_m4.to_i
+end
+
+def p1_move5()
+    puts "player one your turn"
+    p1_m5 = gets.chomp
+    puts "player one chooses #{p1_m5}"
+    p1_m5.to_i
+end
+
 
 
 
